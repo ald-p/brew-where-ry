@@ -1,7 +1,12 @@
 import './App.css';
+import NavBar from './components/ui/NavBar';
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Bre-where?-ry</h1>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }
 
 export default App;
