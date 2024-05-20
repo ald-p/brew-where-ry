@@ -53,7 +53,7 @@ const SearchResults = ({ searchVal }) => {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 {results.map((result) => (
-                  <SearchResult brewery={result} />
+                  <SearchResult brewery={result} key={result.id} />
                 ))}
               </tbody>
             </table>

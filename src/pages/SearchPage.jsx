@@ -1,6 +1,7 @@
 import Button from '../components/core/Buttons/Button';
 import SearchResults from '../components/ui/Search/SearchResults';
 import { useState } from 'react';
+import ReactPaginate from 'react-paginate';
 
 const SearchPage = () => {
   const [search, setSearch] = useState('');
@@ -9,6 +10,10 @@ const SearchPage = () => {
   const handleSearch = async (e) => {
     e.preventDefault();
     setSearch(value);
+  };
+
+  const handlePageClick = (e) => {
+    console.log(e.target);
   };
 
   return (
