@@ -16,10 +16,10 @@ const Hero = () => {
           corners of the globe, we're here to help you embark on unforgettable
           beer-tasting adventures.
         </p>
-        <Link to="/explore">
+        <Link to="/search">
           <Button
             colors={'bg-yellow-700 text-yellow-50'}
-            text={'Start Exploring!'}
+            text={'Start Searching!'}
           />
         </Link>
       </div>
