@@ -21,7 +21,7 @@ const BreweryCards = () => {
   }, []);
 
   return (
-    <div className="flex items-center mx-auto w-3/4">
+    <div className="flex items-center mx-auto w-3/4 mb-5">
       {breweries.map((brewery) => (
         <BreweryCard brewery={brewery} key={brewery.id} />
       ))}
