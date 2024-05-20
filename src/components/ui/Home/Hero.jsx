@@ -1,4 +1,4 @@
-import Button from '../core/Buttons/Button';
+import Button from '../../core/Buttons/Button';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {

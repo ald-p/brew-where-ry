@@ -1,10 +1,11 @@
-import Button from '../components/core/Buttons/Button';
-import Hero from '../components/ui/Hero';
+import Hero from '../components/ui/Home/Hero';
+import FeaturedBreweries from '../components/ui/Home/FeaturedBreweries';
 
 const HomePage = () => {
   return (
     <>
       <Hero />
+      <FeaturedBreweries />
     </>
   );
 };
