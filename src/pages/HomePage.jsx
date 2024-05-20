@@ -1,10 +1,11 @@
-import { Button } from '../components/core/Buttons/Button';
+import Button from '../components/core/Buttons/Button';
+import Hero from '../components/ui/Hero';
 
 const HomePage = () => {
   return (
-    <div>
-      <Button colors={'bg-yellow-700 text-yellow-50'} text={'Button'} />
-    </div>
+    <>
+      <Hero />
+    </>
   );
 };
 
