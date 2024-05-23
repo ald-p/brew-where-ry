@@ -9,9 +9,9 @@ const BreweryCard = ({ brewery }) => {
         <p className="text-lg font-semibold">{brewery.name}</p>
         <p className="text-sm my-3">{`${
           brewery.address_1 ? brewery.address_1 : ''
-        } ${brewery.city}, ${brewery.state_province} ${
-          brewery.postal_code
-        }`}</p>
+        } ${brewery.city}, ${
+          brewery.state_province
+        } ${brewery.postal_code.slice(0, 5)}`}</p>
         <Link to={`/brewery/${brewery.id}`}>
           <Button colors={'bg-emerald-700 text-yellow-50'} text={'More Info'} />
         </Link>

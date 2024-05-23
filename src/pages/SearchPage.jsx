@@ -10,6 +10,7 @@ const SearchPage = () => {
   const handleSearch = async (e) => {
     e.preventDefault();
     setSearch(value);
+    setValue('');
   };
 
   const handlePageClick = (e) => {
